@@ -4,3 +4,35 @@ body {
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     font-size: 1.25em;
 }
+
+h1[id = myName] {
+    text-align: center;
+}
+
+ul[id = navLinks] {
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: whitesmoke;
+    font-size: 1.2em;
+}
+
+div.projects {
+ background-color: whitesmoke;
+ border: 3px solid black;
+ margin-left: 300px;
+ margin-right: 300px;
+ text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+ul {
+    display: inline;
+    text-align: center;
+}
