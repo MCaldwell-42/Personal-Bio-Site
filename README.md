@@ -4,7 +4,7 @@
 
 # Screenshot
 
-![alt text]()
+![alt text](https://raw.githubusercontent.com/MCaldwell-42/Personal-Bio-Site/master/personalSiteScreen.png)
 
 # Getting Started
 
