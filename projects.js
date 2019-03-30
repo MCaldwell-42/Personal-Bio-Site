@@ -1,6 +1,14 @@
  
+const test = () => {
+  console.log('tst')
+};
+const eventListeners = () => {
+  navToBio.addEventListener('click', test);
+};
 
- projects = [
+
+
+projects = [
     {
         title: "Cool Project", 
         screenshot: "http://gotoflashgames.com/files/file/033.jpg", 
@@ -59,6 +67,7 @@ const createProjectsCards = () => {
 
 const init = () => {
 createProjectsCards();
+eventListeners();
 };
 
 init();
