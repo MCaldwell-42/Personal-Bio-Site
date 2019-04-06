@@ -1,6 +1,39 @@
  
+const bioPage = document.getElementById('bioPage');
+const techPage = document.getElementById('technologiesPage');
+const projectsPage = document.getElementById('projectsPage');
+const navItems = document.getElementsByClassName('navItem');
 
- projects = [
+const Navigate = (e) => {
+  const navId = e.target.id;
+  console.log(navId);
+  if (navId === 'navToBio') {
+    bioPage.classList.remove('d-none');
+    technologiesPage.classList.add('d-none');
+    projectsPage.classList.add('d-none');
+  } else if (navId === 'navToTechnologies') {
+    bioPage.classList.add('d-none');
+    technologiesPage.classList.remove('d-none');
+    projectsPage.classList.add('d-none');
+  } else if (navId === 'navToProjects') {
+    bioPage.classList.add('d-none');
+    technologiesPage.classList.add('d-none');
+    projectsPage.classList.remove('d-none');
+  };
+};
+
+const eventListeners = () => {
+  for (let i = 0; i < navItems.length; i++) {
+    navItems[i].addEventListener('click', Navigate);
+  };
+};
+
+const pageLoad = () => {
+    techPage.classList.add('d-none');
+    projectsPage.classList.add('d-none');
+  };
+
+projects = [
     {
         title: "Cool Project", 
         screenshot: "http://gotoflashgames.com/files/file/033.jpg", 
@@ -59,6 +92,8 @@ const createProjectsCards = () => {
 
 const init = () => {
 createProjectsCards();
+eventListeners();
+pageLoad();
 };
 
 init();
