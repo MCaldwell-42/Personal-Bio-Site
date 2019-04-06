@@ -1,12 +1,37 @@
  
-const test = () => {
-  console.log('tst')
+const bioPage = document.getElementById('bioPage');
+const techPage = document.getElementById('technologiesPage');
+const projectsPage = document.getElementById('projectsPage');
+const navItems = document.getElementsByClassName('navItem');
+
+const Navigate = (e) => {
+  const navId = e.target.id;
+  console.log(navId);
+  if (navId === 'navToBio') {
+    bioPage.classList.remove('d-none');
+    technologiesPage.classList.add('d-none');
+    projectsPage.classList.add('d-none');
+  } else if (navId === 'navToTechnologies') {
+    bioPage.classList.add('d-none');
+    technologiesPage.classList.remove('d-none');
+    projectsPage.classList.add('d-none');
+  } else if (navId === 'navToProjects') {
+    bioPage.classList.add('d-none');
+    technologiesPage.classList.add('d-none');
+    projectsPage.classList.remove('d-none');
+  };
 };
+
 const eventListeners = () => {
-  navToBio.addEventListener('click', test);
+  for (let i = 0; i < navItems.length; i++) {
+    navItems[i].addEventListener('click', Navigate);
+  };
 };
 
-
+const pageLoad = () => {
+    techPage.classList.add('d-none');
+    projectsPage.classList.add('d-none');
+  };
 
 projects = [
     {
@@ -68,6 +93,7 @@ const createProjectsCards = () => {
 const init = () => {
 createProjectsCards();
 eventListeners();
+pageLoad();
 };
 
 init();
