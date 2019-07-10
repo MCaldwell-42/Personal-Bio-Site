@@ -1,0 +1,39 @@
+{
+  "projects": {
+    "project1": {
+      "title" : "Movie History",
+      "description": "App for keeping track of movies you want to watch",
+      "projUrl": "https://movie-history-c30a5.firebaseapp.com",
+      "screenshot": "https://raw.githubusercontent.com/MCaldwell-42/movie-history/master/movie-history-screen.png",
+      "gitUrl": "https://github.com/MCaldwell-42/movie-history"
+    },
+    "project2": {
+      "title" : "Toxic project 2",
+      "description": "Gallatin",
+      "projUrl": "50g",
+      "screenshot": "brown",
+      "gitUrl": "Hobo"
+    },
+    "project3": {
+      "title" : "Toxic project 3",
+      "description": "NSS",
+      "projUrl": "2g",
+      "screenshot": "white",
+      "gitUrl": "bird"
+    },
+    "project4": {
+      "title" : "Toxic project 4",
+      "description": "Kyowa",
+      "projUrl": "250g",
+      "screenshot": "brown/green",
+      "gitUrl": "Mine"
+    },
+    "project5": {
+      "title" : "Toxic project 5",
+      "description": "NSS",
+      "projUrl": "12g",
+      "screenshot": "black",
+      "gitUrl": "beast"
+    }
+  }
+}
