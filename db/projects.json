@@ -24,9 +24,9 @@
     "project4": {
       "title" : "Pika Cards",
       "description": "My very first homework I think. Before I understood any CSS or classes or id's really.",
-      "projUrl": "250g",
+      "projUrl": "https://pikacards-880de.firebaseapp.com/",
       "screenshot": "https://raw.githubusercontent.com/MCaldwell-42/ProductCard/master/pikaScreenshot2.png",
-      "gitUrl": "Mine"
+      "gitUrl": "https://github.com/MCaldwell-42/ProductCard"
     }
   }
 }

@@ -1,6 +1,5 @@
 // import projects from '../../components/projects/projects';
 import apiKeys from '../apiKeys.js';
-console.log('hi');
 
 const firebaseUrl = apiKeys.firebaseKeys.databaseURL;
 
@@ -43,7 +42,6 @@ const projectStringBuilder = () => {
       domString += '</div>';
       const selectedDiv = document.getElementById('portfolios');
       selectedDiv.innerHTML = domString;
-      console.error(domString);
     }).catch(err => console.error('could not get projects', err));
   };
   projectStringBuilder();
