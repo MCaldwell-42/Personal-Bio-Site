@@ -23,25 +23,24 @@ const getProjects = () => new Promise((resolve, reject) => {
 const projectStringBuilder = () => {
   getProjects().then((projectResp) => {
       let domString = '';
-      // domString += '<div class="container">';        
-      // domString += '<h2 class="section-title">My Projects</h2>';
-      // domString += '<div class="row">';
+      domString += '<div class="container">';        
+      domString += '<h2 class="section-title">My Projects</h2>';
+      domString += '<div class="row">';
       projectResp.forEach((project) => {
-        domString += '<div id="portfolio" class="row">';
         domString += '<div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">';
         // mix development print ----additional classes
+        domString += `<h3>${project.title}</h3>`;
         domString += ' <div class="portfolio-item">';
         domString += ' <div class="shot-item">';
         domString += `<a class="link" href="${project.projUrl}">`;
         domString += `<img class="projectPic" src=${project.screenshot} alt="project image" />`;
         domString += '</a>';
-        domString += `<h3>${project.title}</h3>`;
         domString += '</div>';
         domString += '</div>';
         domString += '</div>';
       });
-      // domString += '</div>';
-      // domString += '</div>';
+      domString += '</div>';
+      domString += '</div>';
       const selectedDiv = document.getElementById('portfolios');
       selectedDiv.innerHTML = domString;
       console.error(domString);

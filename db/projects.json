@@ -8,32 +8,25 @@
       "gitUrl": "https://github.com/MCaldwell-42/movie-history"
     },
     "project2": {
-      "title" : "Toxic project 2",
-      "description": "Gallatin",
-      "projUrl": "50g",
-      "screenshot": "brown",
-      "gitUrl": "Hobo"
+      "title" : "Tamagotchi",
+      "description": "This is an app that mimics the basic functions of the 90's hit toy Tamagotchi",
+      "projUrl": "https://tamagotchi-a1f8e.firebaseapp.com/",
+      "screenshot": "https://raw.githubusercontent.com/MCaldwell-42/tamagotchi/master/Screen%20Shot%202019-06-15%20at%2010.13.50%20AM.png",
+      "gitUrl": "https://github.com/MCaldwell-42/tamagotchi"
     },
     "project3": {
-      "title" : "Toxic project 3",
-      "description": "NSS",
-      "projUrl": "2g",
-      "screenshot": "white",
-      "gitUrl": "bird"
+      "title" : "Fishstore",
+      "description": "This is an app where you can order all kinds of fish!",
+      "projUrl": "https://fishstore-9b6c9.firebaseapp.com",
+      "screenshot": "https://raw.githubusercontent.com/MCaldwell-42/fishstore/master/Screen%20Shot%202019-07-10%20at%208.23.54%20PM.png",
+      "gitUrl": "https://github.com/MCaldwell-42/fishstore"
     },
     "project4": {
-      "title" : "Toxic project 4",
-      "description": "Kyowa",
+      "title" : "Pika Cards",
+      "description": "My very first homework I think. Before I understood any CSS or classes or id's really.",
       "projUrl": "250g",
-      "screenshot": "brown/green",
+      "screenshot": "https://raw.githubusercontent.com/MCaldwell-42/ProductCard/master/pikaScreenshot2.png",
       "gitUrl": "Mine"
-    },
-    "project5": {
-      "title" : "Toxic project 5",
-      "description": "NSS",
-      "projUrl": "12g",
-      "screenshot": "black",
-      "gitUrl": "beast"
     }
   }
 }
