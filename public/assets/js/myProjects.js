@@ -34,6 +34,7 @@ const projectStringBuilder = () => {
         domString += `<a class="link" href="${project.projUrl}">`;
         domString += `<img class="projectPic" src=${project.screenshot} alt="project image" />`;
         domString += '</a>';
+        domString += `<a class="link" href="${project.gitUrl}">GitLink</a>`;
         domString += '</div>';
         domString += '</div>';
         domString += '</div>';
