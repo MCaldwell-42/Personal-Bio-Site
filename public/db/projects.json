@@ -1,7 +1,7 @@
 {
   "projects": {
     "project1": {
-      "title" : "Stretch Goals (Front End Capstone)",
+      "title" : "Stretch Goals",
       "description": "App for finding stretches and building routines",
       "projUrl": "https://stretch-goals.firebaseapp.com",
       "screenshot": "https://raw.githubusercontent.com/MCaldwell-42/Personal-Bio-Site/master/StetchGoalsScreen.png",
