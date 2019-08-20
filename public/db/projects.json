@@ -1,18 +1,11 @@
 {
   "projects": {
-    "project0": {
+    "project1": {
       "title" : "Stretch Goals (Front End Capstone)",
       "description": "App for finding stretches and building routines",
       "projUrl": "https://stretch-goals.firebaseapp.com",
       "screenshot": "https://raw.githubusercontent.com/MCaldwell-42/Personal-Bio-Site/master/StetchGoalsScreen.png",
       "gitUrl": "https://github.com/MCaldwell-42/StretchGoals"
-    },
-    "project1": {
-      "title" : "Movie History",
-      "description": "App for keeping track of movies you want to watch",
-      "projUrl": "https://movie-history-c30a5.firebaseapp.com",
-      "screenshot": "https://raw.githubusercontent.com/MCaldwell-42/movie-history/master/movie-history-screen.png",
-      "gitUrl": "https://github.com/MCaldwell-42/movie-history"
     },
     "project2": {
       "title" : "Tamagotchi",
@@ -34,6 +27,13 @@
       "projUrl": "https://pikacards-880de.firebaseapp.com/",
       "screenshot": "https://raw.githubusercontent.com/MCaldwell-42/ProductCard/master/pikaScreenshot2.png",
       "gitUrl": "https://github.com/MCaldwell-42/ProductCard"
+    },
+    "project5": {
+      "title" : "Movie History",
+      "description": "App for keeping track of movies you want to watch",
+      "projUrl": "https://movie-history-c30a5.firebaseapp.com",
+      "screenshot": "https://raw.githubusercontent.com/MCaldwell-42/movie-history/master/movie-history-screen.png",
+      "gitUrl": "https://github.com/MCaldwell-42/movie-history"
     }
   }
 }
