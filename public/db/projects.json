@@ -1,5 +1,12 @@
 {
   "projects": {
+    "project0": {
+      "title" : "Stretch Goals (Front End Capstone)",
+      "description": "App for finding stretches and building routines",
+      "projUrl": "https://stretch-goals.firebaseapp.com",
+      "screenshot": "https://raw.githubusercontent.com/MCaldwell-42/Personal-Bio-Site/master/StetchGoalsScreen.png",
+      "gitUrl": "https://github.com/MCaldwell-42/StretchGoals"
+    },
     "project1": {
       "title" : "Movie History",
       "description": "App for keeping track of movies you want to watch",
