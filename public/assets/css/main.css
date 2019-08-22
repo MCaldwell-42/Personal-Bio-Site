@@ -1088,3 +1088,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 #copyright p a:hover {
   color: #00b4d9;
 }
+
+.tech-icon {
+	width: 80px;
+	height: auto;
+  padding: 15px;
+}
