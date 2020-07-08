@@ -8,11 +8,11 @@
       "gitUrl": "https://github.com/MCaldwell-42/StretchGoals"
     },
     "project2": {
-      "title" : "Tamagotchi",
-      "description": "This is an app that mimics the basic functions of the 90's hit toy Tamagotchi",
-      "projUrl": "https://tamagotchi-a1f8e.firebaseapp.com/",
-      "screenshot": "https://raw.githubusercontent.com/MCaldwell-42/tamagotchi/master/Screen%20Shot%202019-06-15%20at%2010.13.50%20AM.png",
-      "gitUrl": "https://github.com/MCaldwell-42/tamagotchi"
+      "title" : "Your Restaurant",
+      "description": "This is a static website hosted on AWS as a template for future websites",
+      "projUrl": "http://your-restaurant-01.s3-website.us-east-2.amazonaws.com",
+      "screenshot": "https://raw.githubusercontent.com/MCaldwell-42/your-restaurant/master/your-restaurant-screen.png",
+      "gitUrl": "https://github.com/MCaldwell-42/your-restaurant"
     },
     "project3": {
       "title" : "Fishstore",
@@ -22,11 +22,11 @@
       "gitUrl": "https://github.com/MCaldwell-42/fishstore"
     },
     "project4": {
-      "title" : "Pika Cards",
-      "description": "My very first homework I think. Before I understood any CSS or classes or id's really.",
-      "projUrl": "https://pikacards-880de.firebaseapp.com/",
-      "screenshot": "https://raw.githubusercontent.com/MCaldwell-42/ProductCard/master/pikaScreenshot2.png",
-      "gitUrl": "https://github.com/MCaldwell-42/ProductCard"
+      "title" : "Pregame",
+      "description": "back-end django/python app that allows users to host events and communicate about them.",
+      "projUrl": "https://github.com/MCaldwell-42/pregame",
+      "screenshot": "https://raw.githubusercontent.com/MCaldwell-42/pregame/master/pregame_screen.png",
+      "gitUrl": "https://github.com/MCaldwell-42/pregame"
     },
     "project5": {
       "title" : "Movie History",
