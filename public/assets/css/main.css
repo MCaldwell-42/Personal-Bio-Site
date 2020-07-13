@@ -5,7 +5,7 @@ html {
 
 body {
   background: #fff;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   font-family: "Source Sans Pro", sans-serif;
   -webkit-box-sizing: border-box;
@@ -53,7 +53,7 @@ p {
   font-weight: 400;
   font-family: "Source Sans Pro", sans-serif;
   margin: 0px;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 ul, ol {
@@ -299,7 +299,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .profile-wrapper {
-  padding: 45px 0;
+  padding: 0px 0;
 }
 
 .profile-wrapper .btn {
